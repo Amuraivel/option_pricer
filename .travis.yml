@@ -4,3 +4,4 @@ r:
 cache: packages
 os: osx
  
+warnings_are_errors: false
