@@ -1,0 +1,14 @@
+---
+title: "Usage of Optionator"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Put the title of your vignette here}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+Optionator is a shell of an option pricer package.
+
+It's usage is quite simple, there is a pricer function that returns an option price of 100 if the option is a put, and -100 if it's a call option. 
+
+There is also a hedger function, which returns the delta of the option based on the sd and a normal distribution.
