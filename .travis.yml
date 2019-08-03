@@ -1,2 +1,8 @@
 language: R
-
+r:
+  - oldrel
+  - release
+  - devel
+cache: packages
+os: osx
+ 
