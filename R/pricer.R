@@ -6,3 +6,5 @@
 pricer <- function(){ 
   100
 }
+
+
