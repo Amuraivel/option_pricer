@@ -4,11 +4,14 @@
 \alias{pricer}
 \title{pricer}
 \usage{
-pricer()
+pricer(put_call = "C")
+}
+\arguments{
+\item{put_call}{Takes a flag for a put or a call}
 }
 \value{
 integer
 }
 \description{
-A function to price options using classic Black-Scholes
+A function to price options.
 }
