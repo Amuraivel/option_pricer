@@ -1,7 +1,7 @@
-Package: option_pricer
+Package: optionator
 Version: 0.0.0.9000
 Date: 2015-01-01
-Title: Optionator
+Title: Optionator is a tool for trying Travis and documentation
 Authors@R: c(person("Joe", "Developer", role = c("aut", "cre"),
                      email = "Joe.Developer@some.domain.net"),
               person("Pat", "Developer", role = "aut"),
@@ -11,7 +11,7 @@ Author: Joe Developer [aut, cre],
   Pat Developer [aut],
   A. User [ctb]
 Maintainer: Joe Developer <Joe.Developer@some.domain.net>
-Depends: R (>= 3.1.0), nlme
+Depends: R (>= 3.1.0), testthat
 Suggests: MASS
 Description: A (one paragraph) description of what
   the package does and why it may be useful.
@@ -21,13 +21,3 @@ BugReports: https://pkgname.bugtracker.url
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
-
-
-
-
-
-
-
-
-
-

@@ -2,7 +2,6 @@ language: R
 r:
   - release
 cache: packages
-os: osx
  
 warnings_are_errors: false
 

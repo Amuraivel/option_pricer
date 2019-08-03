@@ -15,6 +15,7 @@ pricer <- function(put_call = 'C'){
 #' @param price Is the current price of the option
 #' @param sigma Is the variance of the mean price, mu, in terms of a probability
 #' @param mu Mean price of the stock over time
+#' @import stats
 #' @return integer
 hedger <- function(price = price, sigma=.16, mu=price){
   pnorm(price, 
