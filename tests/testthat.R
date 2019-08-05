@@ -1,3 +1,3 @@
 library(testthat)
-library(yourpackage)
+library(optionator)
 test_check("optionator")
